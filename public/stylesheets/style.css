@@ -1,0 +1,263 @@
+* {
+    /* box-sizing: border-box; */
+}
+  
+body, html {
+    /* height: 100%;
+    padding: 0;
+    margin: 0; */
+    font-family: sans-serif;
+    color: #333;
+}
+
+.page-title {
+    /* margin: 25px; */
+    align-items: center;
+    align-content: center;
+}
+
+.post-up {
+    margin-left: 25px;
+}
+
+.attend-btn {
+    background-color: #1e5d6d;
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* .page-title {
+    margin-left: 50px;
+} */
+
+button:hover {
+    background-color: #1c98ad;
+}
+
+.header {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    /* margin-left: 25px; */
+}
+
+.wrapper {
+    width: 100%;
+    /* min-height: 100%; */
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.anchors {
+    justify-content: right;
+    margin-top: 50px;
+    font-weight: bold;
+    font: #1e5d6d;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.sub-anchors {
+    margin-left: 25px;
+}
+
+.signup-anchor {
+    margin-left: 25px;
+}
+
+.games {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.all-games {
+    margin-left: 25px;
+}
+
+.game-title {
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.game-card {
+    height: 250px;
+    padding: 10px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+    /* padding: 0 1%; */
+}
+
+nav {
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+nav a {
+    padding: 0 2%;
+    margin-right: 2em;
+}
+
+.nav a {
+    padding: 0 1%;
+    margin-right: 1em;
+    color: #1e5d6d;
+    text-decoration-line: none;
+}
+
+.nav {
+    background-color: white;
+}
+
+header h1 a {
+    font-size: 1em;
+    text-decoration-line: none;
+    color: #1e5d6d;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+}
+
+textarea, input {
+    padding: .5%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.home-title {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.home-phrase {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.h3-home-phrase {
+    text-align: center;
+}
+
+.h1-home-title {
+    text-align: center;
+}
+
+.login-form {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    width: 300px;
+}
+
+.signup-form {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    width: 300px;
+}
+
+.email-login {
+    font-size: 25px;
+}
+
+.password-login {
+    font-size: 25px;
+}
+
+.btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #225ca3;
+    font-size: 100%;
+    font-weight: bold;
+    transition: color .1s;
+    margin-left: 16px;
+}
+
+.username-signup {
+    font-size: 25px;  
+
+}
+
+.email-signup {
+    font-size: 25px;  
+}
+
+.password-signup {
+    font-size: 25px;    
+}
+
+.btn-no-style:hover {
+    background: none;
+    color: #3486eb;
+}
+
+.post {
+    /* margin-bottom: 2%; */
+    /* line-height: 150%; */
+}
+
+.post .game-title {
+    font-style: italic;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.post .meta {
+    font-weight: lighter;
+}
+
+.game-list {
+    list-style-type: none;
+}
+
+.user-h2 {
+    margin-left: 25px;
+}
+
+.new-game-form {
+    margin-left: 25px;
+    width: 500px;
+}
+
+.game-title {
+    font-size: 25px;
+}
+.game-type {
+    font-size: 25px;
+}
+.game-date {
+    font-size: 25px;
+}
+.game-time {
+    font-size: 25px;
+}
+.game-venue {
+    font-size: 25px;
+}
+.posted-games {
+    margin-left: 25px;
+}
+.user-games {
+    margin-left: 75px;
+}
